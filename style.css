@@ -9,8 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-image: url('file-2AkPr1ihGvDMdB8iPx2vme.png'); /* Altere com o caminho correto para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 .container {
@@ -26,16 +29,20 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 10px;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
+.botoes {
+    margin-top: 20px;
+}
+
 .resposta {
     margin-top: 20px;
     font-size: 20px;
-    color: #333;
 }
 
 .hidden {
